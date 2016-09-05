@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &160174
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 437022}
+  - 114: {fileID: 11495662}
+  m_Layer: 0
+  m_Name: LevelSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &437022
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 160174}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 341.7277, y: 172.70357, z: 93.125}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11495662
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 160174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48923a0fe92dff145ba3183b8e337f1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Levels:
+  - ScoreNeeded: 0
+    LevelName: Recruit
+    LevelIcon: {fileID: 21300000, guid: 0c3a371eed4a9a949a28c1feae803603, type: 3}
+  - ScoreNeeded: 1000
+    LevelName: Private
+    LevelIcon: {fileID: 21300000, guid: f33d3e6b80b2a274e98576e8d3b36bc2, type: 3}
+  - ScoreNeeded: 2000
+    LevelName: Private First Class
+    LevelIcon: {fileID: 21300000, guid: b420b5e3af55075458cacf79769e2667, type: 3}
+  - ScoreNeeded: 3000
+    LevelName: Specialist
+    LevelIcon: {fileID: 21300000, guid: 607944db437945745a34bf7de706c928, type: 3}
+  - ScoreNeeded: 4000
+    LevelName: Corporal
+    LevelIcon: {fileID: 21300000, guid: f932aafcc06626545a0254a28c8caa1d, type: 3}
+  - ScoreNeeded: 5000
+    LevelName: Sergeant
+    LevelIcon: {fileID: 21300000, guid: 05b43884b3541b5429be4a7e3dc7e92f, type: 3}
+  - ScoreNeeded: 10000
+    LevelName: Veteran
+    LevelIcon: {fileID: 21300000, guid: 5b79236f0bf77e146849c827cf3c5afe, type: 3}
+  - ScoreNeeded: 15000
+    LevelName: Master
+    LevelIcon: {fileID: 21300000, guid: 98dcc88c9c8e5ba4594ac61c4d00611a, type: 3}
+  Level: 
+  OldScore: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 160174}
+  m_IsPrefabParent: 1

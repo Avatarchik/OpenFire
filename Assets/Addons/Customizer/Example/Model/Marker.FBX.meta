@@ -1,0 +1,209 @@
+fileFormatVersion: 2
+guid: 6fbea470683a4d2488d768390f535d96
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: 2
+    100002: 3
+    100004: Arms
+    100006: Bip001 L Finger0
+    100008: Bip001 L Finger01
+    100010: Bip001 L Finger02
+    100012: Bip001 L Finger1
+    100014: Bip001 L Finger11
+    100016: Bip001 L Finger12
+    100018: Bip001 L Finger2
+    100020: Bip001 L Finger21
+    100022: Bip001 L Finger22
+    100024: Bip001 L Finger3
+    100026: Bip001 L Finger31
+    100028: Bip001 L Finger32
+    100030: Bip001 L Finger4
+    100032: Bip001 L Finger41
+    100034: Bip001 L Finger42
+    100036: Bip001 L ForeTwist
+    100038: Bip001 L ForeTwist1
+    100040: Bip001 L Hand
+    100042: Bip001 L UpperArm
+    100044: Bip001 R Finger0
+    100046: Bip001 R Finger01
+    100048: Bip001 R Finger02
+    100050: Bip001 R Finger1
+    100052: Bip001 R Finger11
+    100054: Bip001 R Finger12
+    100056: Bip001 R Finger2
+    100058: Bip001 R Finger21
+    100060: Bip001 R Finger22
+    100062: Bip001 R Finger3
+    100064: Bip001 R Finger31
+    100066: Bip001 R Finger32
+    100068: Bip001 R Finger4
+    100070: Bip001 R Finger41
+    100072: Bip001 R Finger42
+    100074: Bip001 R ForeTwist
+    100076: Bip001 R ForeTwist1
+    100078: Bip001 R Hand
+    100080: Bip001 R UpperArm
+    100082: Cube
+    100084: Cube_001
+    100086: Cylinder
+    100088: Cylinder_0
+    100090: Cylinder_001
+    100092: Cylinder_0_001
+    100094: Cylinder_0_002
+    100096: Cylinder_0_004
+    100098: Original_TRUBA
+    100100: Plane
+    100102: Plane_001
+    100104: //RootNode
+    400000: 2
+    400002: 3
+    400004: Arms
+    400006: Bip001 L Finger0
+    400008: Bip001 L Finger01
+    400010: Bip001 L Finger02
+    400012: Bip001 L Finger1
+    400014: Bip001 L Finger11
+    400016: Bip001 L Finger12
+    400018: Bip001 L Finger2
+    400020: Bip001 L Finger21
+    400022: Bip001 L Finger22
+    400024: Bip001 L Finger3
+    400026: Bip001 L Finger31
+    400028: Bip001 L Finger32
+    400030: Bip001 L Finger4
+    400032: Bip001 L Finger41
+    400034: Bip001 L Finger42
+    400036: Bip001 L ForeTwist
+    400038: Bip001 L ForeTwist1
+    400040: Bip001 L Hand
+    400042: Bip001 L UpperArm
+    400044: Bip001 R Finger0
+    400046: Bip001 R Finger01
+    400048: Bip001 R Finger02
+    400050: Bip001 R Finger1
+    400052: Bip001 R Finger11
+    400054: Bip001 R Finger12
+    400056: Bip001 R Finger2
+    400058: Bip001 R Finger21
+    400060: Bip001 R Finger22
+    400062: Bip001 R Finger3
+    400064: Bip001 R Finger31
+    400066: Bip001 R Finger32
+    400068: Bip001 R Finger4
+    400070: Bip001 R Finger41
+    400072: Bip001 R Finger42
+    400074: Bip001 R ForeTwist
+    400076: Bip001 R ForeTwist1
+    400078: Bip001 R Hand
+    400080: Bip001 R UpperArm
+    400082: Cube
+    400084: Cube_001
+    400086: Cylinder
+    400088: Cylinder_0
+    400090: Cylinder_001
+    400092: Cylinder_0_001
+    400094: Cylinder_0_002
+    400096: Cylinder_0_004
+    400098: Original_TRUBA
+    400100: Plane
+    400102: Plane_001
+    400104: //RootNode
+    2300000: 2
+    2300002: 3
+    2300004: Cube
+    2300006: Cube_001
+    2300008: Cylinder
+    2300010: Cylinder_0
+    2300012: Cylinder_001
+    2300014: Cylinder_0_001
+    2300016: Cylinder_0_002
+    2300018: Cylinder_0_004
+    2300020: Original_TRUBA
+    2300022: Plane
+    2300024: Plane_001
+    3300000: 2
+    3300002: 3
+    3300004: Cube
+    3300006: Cube_001
+    3300008: Cylinder
+    3300010: Cylinder_0
+    3300012: Cylinder_001
+    3300014: Cylinder_0_001
+    3300016: Cylinder_0_002
+    3300018: Cylinder_0_004
+    3300020: Original_TRUBA
+    3300022: Plane
+    3300024: Plane_001
+    4300000: Arms
+    4300002: Cylinder_0
+    4300004: Cylinder_0_001
+    4300006: Cylinder_0_002
+    4300008: Original_TRUBA
+    4300010: Cylinder_0_004
+    4300012: 3
+    4300014: 2
+    4300016: Cube_001
+    4300018: Cube
+    4300020: Cylinder_001
+    4300022: Cylinder
+    4300024: Plane
+    4300026: Plane_001
+    7400000: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Arms
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .0250000004
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 

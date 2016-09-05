@@ -1,0 +1,182 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &199056
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400620}
+  - 82: {fileID: 8230482}
+  - 114: {fileID: 11462584}
+  m_Layer: 0
+  m_Name: KillNotifierManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400620
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 199056}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 315.3711, y: 265.875, z: 16.8125}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!82 &8230482
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 199056}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  Priority: 135
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 50000
+  Pan2D: 0
+  rolloffMode: 1
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!114 &11462584
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 199056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e6927fd1cc736047b864d988b0dc2bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Notifier: {fileID: 0}
+  KillsStreaks:
+  - KillName: First
+    m_Type: 0
+    KillLogo: {fileID: 21300000, guid: 0e3b533a0f57d2f438b13d28215f903b, type: 3}
+    KillClip: {fileID: 8300000, guid: 1f4e99d41948d0e40bc3b3b32ab78c1f, type: 3}
+    TimeToShow: 4
+    AlredyShow: 0
+  - KillName: Double
+    m_Type: 1
+    KillLogo: {fileID: 21300000, guid: 2e038d8c2ae97824da9790e46330aa42, type: 3}
+    KillClip: {fileID: 8300000, guid: 00dd36bb17cf3f344ac6a1e25a3fe12d, type: 3}
+    TimeToShow: 4
+    AlredyShow: 0
+  - KillName: MultiKill
+    m_Type: 2
+    KillLogo: {fileID: 21300000, guid: 1ccb0fe3bb03cf341b2deca93d7e3975, type: 3}
+    KillClip: {fileID: 8300000, guid: bb8ff0d42b4392e4eacbaed6a87149a3, type: 3}
+    TimeToShow: 4
+    AlredyShow: 0
+  - KillName: Rambo
+    m_Type: 3
+    KillLogo: {fileID: 21300000, guid: c5d92fccad1a1364581433bf041b02ef, type: 3}
+    KillClip: {fileID: 8300000, guid: 18b5bd094eb5b894889d87d18a829bb5, type: 3}
+    TimeToShow: 4
+    AlredyShow: 0
+  - KillName: Fantastic
+    m_Type: 4
+    KillLogo: {fileID: 21300000, guid: 0933a31923279b04792803dcff21a2e0, type: 3}
+    KillClip: {fileID: 8300000, guid: 0b0ddfc22dca787439f5a932d99ecbbb, type: 3}
+    TimeToShow: 4
+    AlredyShow: 0
+  - KillName: Unbelievable
+    m_Type: 5
+    KillLogo: {fileID: 21300000, guid: f9bc6d7e2ccab554680b4993bd0f9a01, type: 3}
+    KillClip: {fileID: 8300000, guid: f664bd1e085050c48baa59427b01fbc6, type: 3}
+    TimeToShow: 4
+    AlredyShow: 0
+  - KillName: Big Boss
+    m_Type: 6
+    KillLogo: {fileID: 21300000, guid: 7cb979f5dcb3a5b419278ed8f69607ef, type: 3}
+    KillClip: {fileID: 8300000, guid: 9ac7dcf094c881a49bb1777b769f02d7, type: 3}
+    TimeToShow: 4
+    AlredyShow: 0
+  - KillName: HeadShot
+    m_Type: 7
+    KillLogo: {fileID: 21300000, guid: 79d18b47a7eb97e4385d70da0a017bcf, type: 3}
+    KillClip: {fileID: 8300000, guid: 42119d4dc0d7b024d830131a5a2ffc5d, type: 3}
+    TimeToShow: 4
+    AlredyShow: 0
+  TimeToReset: 14
+  Delay: 1
+  Kills: []
+  HeatShotID: 7
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 199056}
+  m_IsPrefabParent: 1

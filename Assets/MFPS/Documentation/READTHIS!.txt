@@ -1,0 +1,236 @@
+Thank you for buying MFPS!.
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+**PLEASE NOTE** 
+
+that MFPS can only be legally downloaded from the following 2 sources:
+
+
+1. Unity Asset Store
+2. http://lovattostudio.com/Forum/index.php
+ 
+
+If you've obtained MFPS via some other means, then note that your license is effectively invalid,
+as Lovatto Studio cannot provide support for pirated and/or potentially modified software.
+
+if you downloaded this illegally and you plan to use it to launch its own (commercial or non-commercial) game,
+ you can even buy MFPS here: http://lovattostudio.com/Forum/viewtopic.php?f=15&t=229 and you will be added in list of buyers and use it without any problem,
+ otherwise you may cause serious problems because MFPS has a short list users who have the right to use this for any purpose.
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Requirement:
+
+Unity 3D 5.0++
+MFPS v1.0.63
+Photon Cloud PUN 1.50.3
+
+This project uses amazing network engine : "Photon Cloud (PUN)".
+
+You need not to prepare your own server and you can use the cloud server with 20 ccu for free!
+
+
+if you have questions, please feel free to ask me by e-mail.
+ brinerjhonson.lc@gmail.com
+or visit me forum: http://lovattostudio.com/Forum/index.php
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+** Required **
+
+
+
+• Get Your AppID
+		
+• Register a Photon Cloud Account: https://cloud.exitgames.com/Account/SignUp
+	
+• Get your AppID from the Dashboard
+
+2. Paste Your AppID
+	
+• In unity editor, Open [Window] -> [Photon Unity Networking] in the menu bar.
+	
+• Push [Setup] button, and paste your AppID to [Your AppID] field.
+	
+• Choose your region you want to set. You can select from EU/US/Asia/Japan.
+	
+• Push [Save] button
+
+3. Play Game!
+	
+• Have fun!
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+** Required Layers and Tags **
+
+
+
+:Tags
+		
+1:Enemy
+2:WeaponCam	
+4:Projectile	
+5:BodyPart
+	
+6:GameManager
+7:Mouse
+8:Remote
+9:WeaponManager
+10:ItemManager
+11:Ladder
+12:Concrete
+13:Metal
+14:Flag
+
+:Layer
+8:Weapon
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+-To Start with MFPS, you must create a new project to clean.
+
+-Then import the "MFPS" package.
+
+-Once imported the package, you need to download and import the "Photon Unity Networking" package from the asset Store:
+https://www.assetstore.unity3d.com/en/#!/content/1786
+
+- Now you are ready to start with MFPS.
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+**Change Log**
+
+- version 1.0:-------------------------------------------------------------------------
+
+- Initial version
+
+Version 1.0.1--------------------------------------------------------------------------
+
+- Remove Button BestCloud from Changer server menu
+- Impromoved FallDamage
+- Added GUI for Flag
+- different sensitivity when is Aimed.
+- different Bullet spread when is Aimed.
+- fixed small bugs.
+
+
+Version 1.0.2--------------------------------------------------------------------------
+
+- Impromved: Menu Lobby
+- Add: more options for GUISkin
+- Added: custom shader "Bumped Specular MFPS"
+- Added: custom shader "MFPS Lighting"
+- Fix: shotgun low bullet GUI
+- Improvet: when round is finished, the player no take damage
+- Fix: when the player joined the room, the score was reset.
+- Fix: Game Per Round now is working
+- Impromved: UI player now support Unity 4.6 UI
+- Add: Advanced Custom Shader for SkyBox with Sun
+- Add: Blood Particle for remote and local player
+- Add: New Skin for player2
+- Add: Atlas sprite for UI 4.6
+- Impromved: Shotgun and sniper Impact force
+- Impromved: Gravity force
+- Impromved: Fire animation speed when is Aimed
+- Add: Show only scoreboard with press tab
+
+Version 1.0.3---------------------------------------------------------------------------
+-Change all weapons and arms models with new Animations,these can be used for commercial use.
+-Impromved: Spawn Player, now chooses a random spawn point and add a more random position.
+-Fix: when creating a new Room this present without connection.
+-Add: Suicide notification
+-Fix: Burts Mode Animation and Camera Shake
+-Added: New UIAnimations
+-Added: Swicht Type of Fire when press "B" (Full,Semi,Single).
+-Added: Health Slider UI.
+-Re-Writte: Chat System.
+-Impromoved: bl_PhotonConnection.cs logic.
+-Added: New fonts type.
+-Added: Now you can change Player Class in game, when press "M" and select the new class (Apply in next Spawn).
+-Added: Heat Animations for a best effect.
+-Added: Suicide Button, when you press button, them you death, is you suicide more than 3 times you receive kick of room.
+-Adeed: sleves and gloves texture for each team.
+-Added: Now Sleves and gloves textures depend of team (different for the team Delta and Recon).
+-Fix: Some small bugs in game.
+-Added: New Reload Sound System, for greater coordination reload sounds with animation.
+-Added: When you are death or not playing, UI is not visible
+-Added: New Static bool bl_GameManager.isAlive this determines whether the player is currently alive or dead.
+-Added: New Static int bl_GameManager.m_view this contains the current actorId, of our client.
+
+Version 1.0.4---------------------------------------------------------------------------
+-Impromoved: complementary effect of the slider of bullets and health is now smoother.
+-Impromoved: Bullet Text now with smoother effect.
+-Fix: Bug hand models that would disappear.
+-Added: Icons for KillFeed (optional).
+-Fix: Vignette disappears when another player dies.
+-Fix: Registered OnAmmoEvent more than 1 time.
+-Impromoved: Weapons sounds with new Free to use.
+-Added: Now you can´t fire when round is end.
+-Impromoved: Ragdoll.
+-Fix: Scoreboard Tab, now is show with "N" key.
+-Added: Hit Player sound, when receive damage.
+-Fix: Select Class and disconnect buttons for FFA.
+
+Version 1.0.5---------------------------------------------------------------------------
+-Added: New spawn effect in gloves and sleves materials (Optional).
+-Added: New script "bl_DeathZone.cs": add a collider, and serves to declare restricted areas
+when you are in one of these areas for more than 5 seconds, you will die. 
+-Fix: Suicide button now is enable only when is alive.
+-Fix: Singletons Scripts instance more than one time.
+-Impromoved: Window Chat now use uGUI.
+-Fix: problems with collisions, the player not detected OnTriggerExit.
+-Added: New Base component script "bl_PhotonHelper.cs" an extended version of "Photon.MonoBehaviour".
+-Added: New script "bl_OnDamageInfo.cs", use this as a reference for information needed to send a new injury.
+-Added: New Option for ADS "useSmooth" in "bl_Gun.cs" if true for a soft effect, if false for a snap effect.
+-Added: New Script "bl_BodyPartManager.cs", This script helps us manage and configure easily our remote player hitboxes.
+-Added: New Script "bl_Grenade.cs" contains the logic of Granada type weapon.
+-Added: New Script "bl_Blast.cs" contains the logic of explosions.
+-Impromoved: Now Launcher type grenade is working.
+-Added: New weapon "Grenade".
+-Added: New Static Extension for player popierties, this facilitates access to properties
+ more authoritatively for each photon player, ej: PhotonNetwork.player.GetKills();
+-Fix: damage direction of fall damage.
+-Impromoved: Damage Indicator, now is more accurate.
+-Impromoved: Player Sync is now more advanced and with more variants, with a new option of "Extrapolate"
+ for calculate the next position of the player.
+-Added: New slot for all class "Special", change this with Keycode.Alpha3
+-Fix: ShotGun and Sniper Delay Fire sound interrupts the firing sound.
+-Replaced: Rifle and Pistol weapon models, new rights not require attribution, Sniper and ShotGun will also replaced soon.
+
+Version 1.0.53---------------------------------------------------------------------------
+-Fix: Error "bl_Chat.cs" when the Photon Unity Networking Plugin was imported.
+-Fix: Rifle and Pistol was not displayed in the Player Model for other players.
+-Impromoved: Crosshair now use uGUI.
+-Added: New CrossHair System,Now this is more dynamic, according to the player's movements and the spread of weapons.
+-Impromoved: Remote Ragdoll, Now is not instantiated, now becomes the RemotePlayer in Ragdoll.
+-Impromoved: Remote Ragdoll now contains the latest weapon the player had before he player died.
+
+
+Version 1.0.6---------------------------------------------------------------------------
+-Impromoved: Grenade, If player local is in range of explosion radius send shake movement.
+-Fix: Volume does not apply in the lobby.
+-Added: AU (Australia) Region server.
+-Impromoved: Gun Manager,Now you can switch between weapons with the mouse scroll.
+-Fix: Grenade through the walls.
+-Added: Movement Boost when super jump, check out bl_PlayerMovement for adjust.
+-Fix: Air control when only press jump and any Axis.
+-Added: Auto reload options for all guns, if = true, when bullet left is = 0, the gun auto reload immediate.
+-Added: KillFeed, Now when the killer or killed is mine the color of name if different, regardless of team.
+-Added: ColorKey, contains the global variables of colors, now you just need to change the color in these variables and all colors automatically be updated.
+-Fix: Upper Body Up / Down rotation.
+-Added: Best Heat Look Controller more precisely of the angle and more Smooth movement.
+-Impromoved: Player Animations.
+-Fix: Fire weapon when press Ctrl.
+-Added: Torque for grenade.
+-Impromoved: SpawnPoint Random Sphere Space.
+-Added: Debug Spawn Space for each spawnpoint, select a spawn point and see the space available for spawn player.
+-Added: Context Menu for PlayerSync "Get IDs For NGuns", this automatically configures Ids and type of weapon of all network guns in the list.
+-Added: New slot for swicht weapon Alpha 4.
+-Added: Knife weapon.
+-Added: Basic AI with patrol,range,follow and attack.
+
+Version 1.0.63---------------------------------------------------------------------------
+- Impromovent: MFPS to Unity5!.
+- Fix: KillFeed Text Position.
+- Impromoved: Sounds Step Reverb zone.
+- Impromoved: When other player is in TeamMate, players ignore collisions with this.
+- Fix: Crouch and Jump Animation.
+- Added: Image Effect "Camera Motion Blur".
+
+Forum: http://lovattostudio.com/Forum/index.php
+Contact: brinerjhonson.lc@gmail.com
